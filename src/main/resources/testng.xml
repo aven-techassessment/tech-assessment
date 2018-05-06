@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="The Movie DB Suite" verbose="1" >
+    <listeners>
+        <listener class-name="com.haven.techassessment.listener.SuiteListener" />
+    </listeners>
+    <test name="All Tests">
+        <packages>
+            <package name="com.haven.techassessment.*" />
+        </packages>
+    </test>
+</suite>
